@@ -21,8 +21,8 @@ public class FakeApiService implements ApiService {
         users.add(random);
     }
 
-        @Override
+    @Override
     public void deleteUser(User user) {
-                users.remove(user);
+        users.remove(user);
     }
 }
